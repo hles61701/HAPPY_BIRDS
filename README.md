@@ -13,7 +13,7 @@ openCV 4.4
 pygame 1.9.6  
   
 ## How to install?
-$<code>git clone https://github.com/hao800922/HAPPY_BIRDS.git</code>  
+$<code>git clone https://github.com/hles61701/HAPPY_BIRDS.git</code>  
 $<code>cd HAPPY_BIRDS</code>  
 $<code>sudo pip3 install -r requirements.txt</code>  
     
