@@ -97,9 +97,6 @@ class Pipe():
         self.PIPE_TOP = pygame.transform.flip(pipe_img, False, True)
         self.PIPE_BOTTOM = pipe_img
         
-#         self.rect = self.image.get_rect()
-#         self.rect.topleft = (self.x, self.y)
-
         self.passed = False
 
         self.set_height()
@@ -165,7 +162,7 @@ class Bird:
         self.height = self.y
         self.img_count = 0
         self.img = self.IMGS[0]
-#         self.rect = self.image.get_rect()
+
         
     def draw(self, win):
         """
@@ -175,7 +172,7 @@ class Bird:
         """
         self.img_count += 1
 
-        # For animation of bird, loop through three images
+        # 鳥鳥上下照片loop
         if self.img_count <= self.ANIMATION_TIME:
             self.img = self.IMGS[0]
         elif self.img_count <= self.ANIMATION_TIME*2:
@@ -770,33 +767,6 @@ if __name__ == '__main__':
     main()
 
 
-# In[ ]:
-
-
-# class Mosquito(pygame.sprite.Sprite):
-#     def init(self):
-#         super().init()
-#         pygame.sprite.Sprite.init(self)
-#         self.x = random.randrange(0, 640-IMAGEWIDTH)
-#         self.y = random.randrange(-20, 0)
-#         self.raw_image = pygame.image.load('UFO.png')
-#         self.image = pygame.transform.scale(self.raw_image, (IMAGEWIDTH, IMAGEHEIGHT))
-#         self.rect = self.image.get_rect()
-#         self.rect.topleft = (self.x, self.y)
-#         self.width = IMAGEWIDTH
-#         self.height = IMAGEHEIGHT
-#         self.widow_width = WINDOW_WIDTH
-#         self.window_height = WINDOW_HEIGHT
-
-#     def draw(self, win):
-#         win.blit(self.image, self.rect)
-#     def move(self):
-#         self.x += random.randrange(-10, 10)
-#         self.y += 10
-#         self.rect.topleft = (self.x, self.y)
-
-
-# In[ ]:
 
 
 
