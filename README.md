@@ -3,9 +3,9 @@
 ### menu
 ![image](https://github.com/hles61701/HAPPY_BIRDS/blob/main/image/HAPPY_01.jpg)
 ### Game presentation
-![image](https://github.com/hles61701/HAPPY_BIRDS/blob/master/image/HAPPY_04.jpg)
+![image](https://github.com/hles61701/HAPPY_BIRDS/blob/main/image/HAPPY_04.jpg)
 ### score
-![image](https://github.com/hles61701/HAPPY_BIRDS/blob/master/image/HAPPY_00.jpg)
+![image](https://github.com/hles61701/HAPPY_BIRDS/blob/main/image/HAPPY_00.jpg)
   
 ## Version  
 python 3.6, 3.7, 3.8  
