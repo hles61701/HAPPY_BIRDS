@@ -1,7 +1,7 @@
 # HAPPY_BIRDS
 ## A bird flies over pipe  when you smile.
 ### menu
-![image](https://github.com/hles61701/HAPPY_BIRDS/blob/master/image/HAPPY_01.jpg)
+![image](https://github.com/hles61701/HAPPY_BIRDS/blob/main/image/HAPPY_01.jpg)
 ### Game presentation
 ![image](https://github.com/hles61701/HAPPY_BIRDS/blob/master/image/HAPPY_04.jpg)
 ### score
